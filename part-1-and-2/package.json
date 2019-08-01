@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-redux-lecture-excersises",
+  "version": "1.0.0",
+  "description": "## Assessment 1 * Create a reducer which responds to the event 'INCREMENT_COUNTER' by incremeting the `counter` property in state * Use `createStore` to create a store. * Use store.dispatch to dispatch the INCREMENT_COUNTER action * Install Redux Devtools: https://github.com/zalmoxisus/redux-devtools-extension * Open Redux Devtools and use it to visualize the change in state",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshua-Miles/intro-to-redux-lecture-excersises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshua-Miles/intro-to-redux-lecture-excersises/issues"
+  },
+  "homepage": "https://github.com/Joshua-Miles/intro-to-redux-lecture-excersises#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
