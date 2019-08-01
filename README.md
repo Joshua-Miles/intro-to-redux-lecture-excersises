@@ -65,6 +65,7 @@
 * We're not interested in how they are connected just yet, but there is a problem in the reducer that is keeping state from properly updating.
 * When you click the number that is displayed when you start the app, it dispatches an **action** to `INCREMENT_COUNT`
 * If you use redux devtools, you should be able to see the action get dispatched every time the number is clicked.
+* Open `store.js`
 * The `App` is subscribed to the redux **store**, and rerenders every time state **changes** so it should show the number increment every time you click it.
 * Why isn't the `App` re rendering?
 * With your pair, fix the bug in the reducer
